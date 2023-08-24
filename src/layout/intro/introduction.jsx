@@ -34,6 +34,15 @@ const Introduction = () => {
                         />
                     </strong>
                 </p>
+
+                {/* <button className={styles.button}>
+                    <a
+                        href="#work"
+                        role="button"
+                    >
+                        Explore My Work
+                    </a>
+                </button> */}
             </div>
         </div >
     );
