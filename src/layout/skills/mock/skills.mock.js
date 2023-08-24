@@ -22,96 +22,77 @@ export const skillsMock = [
     {
         lang_name: "Python",
         icon: PythonImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "HTML",
         icon: HtmlImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "CSS",
         icon: CssImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "Boot strap",
         icon: BootStrapImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "Sass",
         icon: SassImg,
-        exp_level: "Experienced"
     },
     {
         lang_name: "Tailwind",
         icon: TailwindImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "Styled Components",
         icon: StyledComponentsImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "Figma",
         icon: FigmaImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "Git",
         icon: GitImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "JavaScript",
         icon: JavascriptImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "TypeScript",
         icon: TypeScriptImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "Mongo",
         icon: MongoDBImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "MySQL",
         icon: MySQLImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "Material UI",
         icon: MUIImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "Next",
         icon: NextImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "Node",
         icon: NodeImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "PhotoShop",
         icon: PhotoshopImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "React",
         icon: ReactImg,
-        exp_level: "Junior"
     },
     {
         lang_name: "Linux",
         icon: LinuxImg,
-        exp_level: "Begginer"
     },
 ];

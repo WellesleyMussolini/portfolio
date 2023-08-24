@@ -25,10 +25,6 @@
     height: 48px;
 }
 
-.wrapper p {
-    font-size: 13px;
-}
-
 .light .images {
     background: rgb(240, 239, 239);
 }

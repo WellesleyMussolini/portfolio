@@ -17,7 +17,6 @@ const Card = ({skillsMock}) => {
                     <img src={details.icon} alt="" />
                 </div>
                 <h3>{details.lang_name}</h3>
-                <p className={`${details.exp_level}`}>{details.exp_level}</p>
             </div>
         </div>
     ));

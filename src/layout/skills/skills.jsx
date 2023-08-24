@@ -10,11 +10,10 @@ const Skills = () => {
 
     return (
         <section className={styles.container}>
-            <h1>REFERENCE: <a href="https://github.com/tech-jamara/DjangoReactPortfolio/tree/main" target="_blank">HERE</a></h1>
             <div className={styles.title}>
-                <h2>My Skills Progress so far</h2>
+                <h2>competências adquiridas</h2>
 
-                <h3>My Skills</h3>
+                <h3>Habilidades</h3>
             </div>
             <Card skillsMock={skillsMock} />
         </section>
