@@ -1,10 +1,9 @@
 import './App.css';
-import Introduction from "./layout/intro/introduction.component";
 
 function App() {
   return (
     <div>
-      <Introduction />
+<h1>INTRO</h1>
     </div>
   );
 }
