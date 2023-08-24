@@ -8090,7 +8090,7 @@ react-transition-group@^4.4.5:
 
 react-typed@^1.2.0:
   version "1.2.0"
-  resolved "https://registry.npmjs.org/react-typed/-/react-typed-1.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/react-typed/-/react-typed-1.2.0.tgz#c5fb0bea4c972545c29fceb9c1d22495b6636b58"
   integrity sha512-aDsaA6zkjAFJs8285APOqE85l/kwJ0/ZJmBhARwUrza4TTttrMM5FcMCGEDdThdfUdHo/0l9WXmxp1m2ik4qdw==
   dependencies:
     prop-types "^15.6.0"

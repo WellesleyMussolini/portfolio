@@ -4,8 +4,7 @@ import Typed from "react-typed";
 // import StarsAnimation from "./components/stars-animation/stars.component";
 // import HandWave from "./components/hand-wave/hand_wave.component";
 
-const Introduction = () => {
-    return (
+const Introduction = () => (
         <div className={styles.container}>
             {/* <StarsAnimation /> */}
             <div className={styles.wrapper}>
@@ -46,6 +45,5 @@ const Introduction = () => {
             </div>
         </div >
     );
-}
 
 export default Introduction;
