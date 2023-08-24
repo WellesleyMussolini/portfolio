@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./introduction.module.css";
 import Typed from "react-typed";
+import StarsAnimation from "./components/stars-animation/stars.component";
 
 const Introduction = () => {
     return (
         <div className={styles.container}>
+            <StarsAnimation />
             <div className={styles.wrapper}>
                 {/* DONE */}
                 <p className={styles.skills}>
