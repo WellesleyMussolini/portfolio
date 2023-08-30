@@ -17,8 +17,8 @@
 Antes de começar o desenvolvimento de uma nova funcionalidade, siga estas etapas:
 
 **Atenção:**
-- Nenhum desenvolvimento deve ser feito na branch master ou dev.
-- Não faça pull requests da dev para a master.
+- Nenhum desenvolvimento deve ser feito na branch master ou develop.
+- Não faça pull requests da develop para a master.
 - Antes de desenvolver, lembre-se de fazer um merge com a develop.
 
 1. **Crie uma Nova Branch:** Inicie uma nova branch com o formato `feature/nome-da-tarefa` a partir da branch principal. Utilize o seguinte comando para criar a nova branch:
@@ -28,23 +28,25 @@ Antes de começar o desenvolvimento de uma nova funcionalidade, siga estas etapa
 2. **Integre com a Branch Dev:** Antes de começar a trabalhar, integre a sua nova branch com a branch dev principal para obter as atualizações mais recentes. Isso ajuda a evitar conflitos mais tarde:
 
    ```sh
-   git checkout dev
+   git checkout develop
    git fetch --all
-   git pull origin dev
+   git pull origin develop
    git checkout feature/nome-da-tarefa
-   git merge dev
-4. **Implemente a Funcionalidade:** Desenvolva a funcionalidade na nova branch criada. Certifique-se de seguir as melhores práticas de codificação.
-5. **Testes e Verificações:** Realize testes rigorosos para garantir que a funcionalidade esteja funcionando conforme o esperado.
-6. **Commit e Push:** Após testar e verificar a funcionalidade, faça um commit das alterações e envie a nova branch para o repositório remoto:
+   git merge develop
+3. **Implemente a Funcionalidade:** Desenvolva a funcionalidade na nova branch criada. Certifique-se de seguir as melhores práticas de codificação.
+4. **Testes e Verificações:** Realize testes rigorosos para garantir que a funcionalidade esteja funcionando conforme o esperado.
+5. **Commit e Push:** Após testar e verificar a funcionalidade, faça um commit das alterações e envie a nova branch para o repositório remoto:
    ```sh
    git add .
    git commit -m "Descrição concisa das alterações"
    git push origin feature/nome-da-tarefa
-8. **Pull Request (PR):** Crie um Pull Request para mesclar sua branch com a branch dev principal. Utilize o seguinte comando:
-   ```sh
-   git flow feature finish nome-da-tarefa
-10. Aguardando Avaliação: Envie o Pull Request para ser avaliado e aguarde a aprovação.
-11. Merge e Próxima Tarefa: Após a aprovação, faça o merge das alterações e siga para a próxima tarefa.
+6. **Pull Request (PR):** Crie um Pull Request para mesclar sua branch com a branch develop. 
+7. **Aguardando Avaliação:** Envie o Pull Request para ser avaliado e aguarde a aprovação.
+8. **Merge e Próxima Tarefa:** Após a aprovação, faça o merge das alterações e siga para a próxima tarefa.
+9. **Deletando a Branch:** Após o merge da funcionalidade, você pode deletar a branch local e remota utilizando o seguinte comando:
+    ```sh
+    git branch -d feature/nome-da-tarefa
+    git push origin --delete feature/nome-da-tarefa
 
 ## Como Criar uma Branch
 
@@ -57,4 +59,3 @@ Como Criar uma Branch
    git checkout -b feature/nome-da-tarefa
 
 Agora você está pronto para começar a trabalhar na nova funcionalidade!
-Se tiver dúvidas ou problemas, não hesite em entrar em contato com a equipe de desenvolvimento.
