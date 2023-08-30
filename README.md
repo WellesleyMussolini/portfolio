@@ -26,6 +26,8 @@ Antes de começar o desenvolvimento de uma nova funcionalidade, siga estas etapa
    ```sh
    git checkout -b feature/nome-da-tarefa
 2. **Integre com a Branch Dev:** Antes de começar a trabalhar, integre a sua nova branch com a branch dev principal para obter as atualizações mais recentes. Isso ajuda a evitar conflitos mais tarde:
+
+   ```sh
    git checkout dev
    git fetch --all
    git pull origin dev
@@ -34,13 +36,14 @@ Antes de começar o desenvolvimento de uma nova funcionalidade, siga estas etapa
 4. **Implemente a Funcionalidade:** Desenvolva a funcionalidade na nova branch criada. Certifique-se de seguir as melhores práticas de codificação.
 5. **Testes e Verificações:** Realize testes rigorosos para garantir que a funcionalidade esteja funcionando conforme o esperado.
 6. **Commit e Push:** Após testar e verificar a funcionalidade, faça um commit das alterações e envie a nova branch para o repositório remoto:
+   ```sh
    git add .
    git commit -m "Descrição concisa das alterações"
    git push origin feature/nome-da-tarefa
-7. **Pull Request (PR):** Crie um Pull Request para mesclar sua branch com a branch dev principal. Utilize o seguinte comando:
+8. **Pull Request (PR):** Crie um Pull Request para mesclar sua branch com a branch dev principal. Utilize o seguinte comando:
    git flow feature finish nome-da-tarefa
-8. Aguardando Avaliação: Envie o Pull Request para ser avaliado e aguarde a aprovação.
-9. Merge e Próxima Tarefa: Após a aprovação, faça o merge das alterações e siga para a próxima tarefa.
+9. Aguardando Avaliação: Envie o Pull Request para ser avaliado e aguarde a aprovação.
+10. Merge e Próxima Tarefa: Após a aprovação, faça o merge das alterações e siga para a próxima tarefa.
 
 ## Como Criar uma Branch
 
@@ -49,6 +52,7 @@ Como Criar uma Branch
 1. Abra o terminal.
 2. Navegue até a pasta do seu projeto.
 3. Digite o seguinte comando substituindo **nome-da-tarefa** pelo nome descritivo da sua tarefa:
+   ```sh
    git checkout -b feature/nome-da-tarefa
 
 Agora você está pronto para começar a trabalhar na nova funcionalidade!
