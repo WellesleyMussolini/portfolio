@@ -25,10 +25,22 @@ Antes de começar o desenvolvimento de uma nova funcionalidade, siga estas etapa
    
    ```sh
    git checkout -b feature/nome-da-tarefa
-2. **Integre com a Branch Dev:** Antes de começar a trabalhar, integre a sua nova branch com a branch dev principal para obter as atualizações mais recentes. Isso ajuda a evitar conflitos mais tarde:
+2. **Integre com a Branch Dev:** Antes de começar a trabalhar, integre a sua nova branch com a branch develop para obter as atualizações mais recentes. Isso ajuda a evitar conflitos mais tarde:
 
-    #!/bin/bash
-   git checkout develop
+    ### Passo 1: Alternar para a branch `develop`
+
+       ```sh
+       git checkout develop
+
+    ###Passo 2: Buscar as atualizações de todas as branches remotas
+
+        ```sh
+       git fetch --all
+   
+    ###Passo 3: Atualizar a branch *develop* com as últimas alterações remotas
+
+       ```sh
+       git pull origin develop
 
    ```sh
    git checkout develop
@@ -36,6 +48,7 @@ Antes de começar o desenvolvimento de uma nova funcionalidade, siga estas etapa
    git pull origin develop
    git checkout feature/nome-da-tarefa
    git merge develop
+
 4. **Implemente a Funcionalidade:** Desenvolva a funcionalidade na nova branch criada. Certifique-se de seguir as melhores práticas de codificação.
 5. **Testes e Verificações:** Realize testes rigorosos para garantir que a funcionalidade esteja funcionando conforme o esperado.
 6. **Commit e Push:** Após testar e verificar a funcionalidade, faça um commit das alterações e envie a nova branch para o repositório remoto:
