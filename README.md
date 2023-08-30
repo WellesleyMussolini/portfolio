@@ -41,9 +41,10 @@ Antes de começar o desenvolvimento de uma nova funcionalidade, siga estas etapa
    git commit -m "Descrição concisa das alterações"
    git push origin feature/nome-da-tarefa
 8. **Pull Request (PR):** Crie um Pull Request para mesclar sua branch com a branch dev principal. Utilize o seguinte comando:
+   ```sh
    git flow feature finish nome-da-tarefa
-9. Aguardando Avaliação: Envie o Pull Request para ser avaliado e aguarde a aprovação.
-10. Merge e Próxima Tarefa: Após a aprovação, faça o merge das alterações e siga para a próxima tarefa.
+10. Aguardando Avaliação: Envie o Pull Request para ser avaliado e aguarde a aprovação.
+11. Merge e Próxima Tarefa: Após a aprovação, faça o merge das alterações e siga para a próxima tarefa.
 
 ## Como Criar uma Branch
 
