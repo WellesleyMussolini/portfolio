@@ -31,41 +31,42 @@ Antes de começar o desenvolvimento de uma nova funcionalidade, siga estas etapa
 
        git checkout develop
 
-    #### Passo 2: Buscar as atualizações de todas as branches remotas
+    #### Passo 2: Sincronizar com as atualizações da *develop*
    
        git fetch --all
    
-    #### Passo 3: Atualizar a branch *develop* com as últimas alterações remotas
+    #### Passo 3: Incorporar as últimas mudanças na *develop*
    
        git pull origin develop
 
-   #### Passo 4: Alternar para a nova branch da tarefa criada
+   #### Passo 4: Alternar para a nova branch da sua tarefa 
    
         git checkout feature/nome-da-tarefa
 
-   #### Passo 5: Mesclar as alterações da branch *develop* na nova branch criada
+   #### Passo 5: Integrar as alterações da branch *develop* na nova branch
    
        git merge develop
-
-
-   ```sh
-   git checkout develop
-   git fetch --all
-   git pull origin develop
-   git checkout feature/nome-da-tarefa
-   git merge develop
 
 4. **Implemente a Funcionalidade:** Desenvolva a funcionalidade na nova branch criada. Certifique-se de seguir as melhores práticas de codificação.
 5. **Testes e Verificações:** Realize testes rigorosos para garantir que a funcionalidade esteja funcionando conforme o esperado.
 6. **Commit e Push:** Após testar e verificar a funcionalidade, faça um commit das alterações e envie a nova branch para o repositório remoto:
-   ```sh
-   git add .
-   git commit -m "Descrição concisa das alterações"
-   git push origin feature/nome-da-tarefa
-7. **Pull Request (PR):** Crie um Pull Request para mesclar sua branch com a branch develop. 
-8. **Aguardando Avaliação:** Envie o Pull Request para ser avaliado e aguarde a aprovação.
-9. **Merge e Próxima Tarefa:** Após a aprovação, faça o merge das alterações e siga para a próxima tarefa.
-10. **Deletando a Branch:** Após o merge da funcionalidade, você pode deletar a branch local e remota utilizando o seguinte comando:
+
+   #### Passo 1: Preparar as alterações
+   
+       git add .
+   
+   #### Passo 2: Confirmar as alterações com uma descrição
+   
+       git commit -m "Descrição concisa das alterações" 
+
+   #### Passo 3: Enviar as alterações para a sua branch
+
+       git push origin feature/nome-da-tarefa
+    
+8. **Pull Request (PR):** Crie um Pull Request para mesclar sua branch com a branch develop. 
+9. **Aguardando Avaliação:** Envie o Pull Request para ser avaliado e aguarde a aprovação.
+10. **Merge e Próxima Tarefa:** Após a aprovação, faça o merge das alterações e siga para a próxima tarefa.
+11. **Deletando a Branch:** Após o merge da funcionalidade, você pode deletar a branch local e remota utilizando o seguinte comando:
     ```sh
     git branch -d feature/nome-da-tarefa
     git push origin --delete feature/nome-da-tarefa
