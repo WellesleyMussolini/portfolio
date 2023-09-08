@@ -1,9 +1,9 @@
-import styles from './card.module.css';
-
+import styles from './card.module.scss';
 import { AiFillGithub } from "react-icons/ai"
 import { MdLaunch } from "react-icons/md"
+import { CardProps } from './card.interface';
 
-const Card = ({ title, description, stacks, sourceCode, livePreview }) => (
+const Card = ({ title, description, stacks, sourceCode, livePreview }: CardProps) => (
     <div className={styles.container}>
         <h3>{title}</h3>
         <p>{description}</p>
