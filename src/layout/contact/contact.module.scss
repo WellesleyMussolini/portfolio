@@ -1,0 +1,92 @@
+$container-gap: 10px;
+$text-color: #555;
+$button-color: #2978b5;
+$button-hover-color: #fff;
+$button-transition-duration: 0.5s;
+$button-padding: 12px 30px;
+$button-border-width: 2px;
+$button-bg: transparent;
+$button-z-index: -1;
+$button-left-transition-duration: 320ms;
+$button-left-position: -100%;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35em;
+    width: 100%;
+    gap: $container-gap;
+
+    h1 {
+        font-size: 2.5em;
+        color: $text-color;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        color: $text-color;
+    }
+
+    .social {
+        display: flex;
+        gap: $container-gap;
+        margin-top: 10px;
+    }
+}
+
+.button {
+    font: 500 1.2em/1.5 Poppins, sans-serif;
+    color: $button-color;
+    padding: $button-padding;
+    border: $button-border-width solid $button-color;
+    background: $button-bg;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: color $button-transition-duration;
+
+    &:hover {
+        color: $button-hover-color;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: $button-left-position;
+        width: 100%;
+        height: 100%;
+        background: $button-color;
+        transition: left $button-left-transition-duration;
+        z-index: $button-z-index;
+    }
+
+    &:hover::before {
+        left: 0;
+    }
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+
+    a {
+        margin-right: 10px;
+        display: inline-block;
+
+        svg {
+            font-size: 2em;
+            color: $text-color;
+            transition: 500ms;
+
+            &:hover {
+                transform: scale(1.5);
+                color: gray;
+            }
+        }
+    }
+}

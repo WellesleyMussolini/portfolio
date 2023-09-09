@@ -20,79 +20,79 @@ import LinuxImg from "../images/linux.png";
 
 export const skillsMock = [
     {
-        lang_name: "Python",
+        stack: "Python",
         icon: PythonImg,
     },
     {
-        lang_name: "HTML",
+        stack: "HTML",
         icon: HtmlImg,
     },
     {
-        lang_name: "CSS",
+        stack: "CSS",
         icon: CssImg,
     },
     {
-        lang_name: "Boot strap",
+        stack: "Boot strap",
         icon: BootStrapImg,
     },
     {
-        lang_name: "Sass",
+        stack: "Sass",
         icon: SassImg,
     },
     {
-        lang_name: "Tailwind",
+        stack: "Tailwind",
         icon: TailwindImg,
     },
     {
-        lang_name: "Styled Components",
+        stack: "Styled Components",
         icon: StyledComponentsImg,
     },
     {
-        lang_name: "Figma",
+        stack: "Figma",
         icon: FigmaImg,
     },
     {
-        lang_name: "Git",
+        stack: "Git",
         icon: GitImg,
     },
     {
-        lang_name: "JavaScript",
+        stack: "JavaScript",
         icon: JavascriptImg,
     },
     {
-        lang_name: "TypeScript",
+        stack: "TypeScript",
         icon: TypeScriptImg,
     },
     {
-        lang_name: "Mongo",
+        stack: "Mongo",
         icon: MongoDBImg,
     },
     {
-        lang_name: "MySQL",
+        stack: "MySQL",
         icon: MySQLImg,
     },
     {
-        lang_name: "Material UI",
+        stack: "Material UI",
         icon: MUIImg,
     },
     {
-        lang_name: "Next",
+        stack: "Next",
         icon: NextImg,
     },
     {
-        lang_name: "Node",
+        stack: "Node",
         icon: NodeImg,
     },
     {
-        lang_name: "PhotoShop",
+        stack: "PhotoShop",
         icon: PhotoshopImg,
     },
     {
-        lang_name: "React",
+        stack: "React",
         icon: ReactImg,
     },
     {
-        lang_name: "Linux",
+        stack: "Linux",
         icon: LinuxImg,
     },
 ];

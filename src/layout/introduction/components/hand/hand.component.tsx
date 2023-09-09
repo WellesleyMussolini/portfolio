@@ -1,4 +1,4 @@
-import styles from "./hand_wave.module.css";
+import styles from "./hand.module.scss";
 
 const HandWave = () => (
     <span className={styles.wave} role="img">

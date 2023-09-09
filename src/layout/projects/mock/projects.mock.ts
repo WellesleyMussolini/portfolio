@@ -11,20 +11,12 @@ export const projects = [
         title: 'Pets',
         description:
             'Criei um projeto abrangente sobre raças de cachorros, abordando informações detalhadas, características distintas e comportamentos típicos de diversas raças caninas.',
-        stack: ['React', 'Styled-Components'],
+        stack: ['React', 'Styled Components', 'Node', 'MongoDB', 'Rest API'],
         sourceCode: 'https://github.com/WellesleyMussolini/my-pet-list',
         livePreview: 'https://my-pet-list.vercel.app/',
     },
     {
-        title: 'Pets API',
-        description:
-            'Uma aplicação backend construída em Node.js, integrada ao banco de dados MongoDB. Esse sistema abrangente reúne e disponibiliza informações detalhadas sobre diversas raças de cachorros.',
-        stack: ['Node', 'MongoDB', 'Rest API', 'JavaScript'],
-        sourceCode: 'https://github.com/WellesleyMussolini/pets-api',
-        livePreview: 'https://pets-api-7k0f.onrender.com/pets',
-    },
-    {
-        title: 'Posts',
+        title: 'DevSync',
         description:
             "Plataforma para que desenvolvedores se conectem e compartilhem seus projetos. Inspirada no GitHub, com uma interface simples, tornando a colaboração e compartilhamento de projetos mais acessíveis. O projeto encontra-se em fase de desenvolvimento.",
         stack: ['Next', 'Tailwind', 'Google Auth', 'GitHub Auth'],
