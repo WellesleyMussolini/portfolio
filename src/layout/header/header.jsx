@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Navigation from "./components/navigation/navigation.component";
-import styles from "./header.module.css";
+import styles from "./header.module.scss";
 import logoDefault from "./images/male-default.png";
 import logoScrolled from "./images/male-scrolled-down.png";
 import { headerMock } from "./mock/header.mock";
 import { useScrollHandler } from "./components/scroll-down/scrolldown.component";
-import StarsAnimation from "../intro/layout/stars-animation/stars.component";
 
 const Header = () => {
     const scrolled = useScrollHandler();
