@@ -7,8 +7,13 @@
     z-index: 50;
     overflow: hidden;
     background: #fff;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
 }
 
+.hide {
+    opacity: 0;
+}
 
 .loading:before {
     content: "";
