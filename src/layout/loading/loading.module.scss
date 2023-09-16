@@ -9,10 +9,13 @@
     background: #fff;
     opacity: 1;
     transition: opacity 1s ease-in-out;
+    visibility: visible; 
 }
 
 .hide {
     opacity: 0;
+    transition: 1s ease;
+    visibility: hidden;
 }
 
 .loading:before {
