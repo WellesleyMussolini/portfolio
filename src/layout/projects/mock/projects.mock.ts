@@ -21,6 +21,6 @@ export const projects = [
             "Plataforma para que desenvolvedores se conectem e compartilhem seus projetos. Inspirada no GitHub, com uma interface simples, tornando a colaboração e compartilhamento de projetos mais acessíveis. O projeto encontra-se em fase de desenvolvimento.",
         stack: ['Next', 'Tailwind', 'Google Auth', 'GitHub Auth'],
         sourceCode: 'https://github.com/matheus98rocha/untitle-project',
-        livePreview: 'https://untitle-project.vercel.app/',
+        livePreview: 'https://devsync-app.vercel.app/',
     },
 ];
